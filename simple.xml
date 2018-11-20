@@ -1,0 +1,42 @@
+<SerializableClass Type="Fichier" Version="2.1">
+    <Member Name="Setting1">Settings string 1</Member>
+    <Member Name="Setting2">Settings string 2</Member>
+    <Member Name="Setting3">Settings string 3</Member>
+    <Member Name="Setting4">1234</Member>
+    <Member Name="Setting5">5678</Member>
+    <Member Name="Setting6">false</Member>
+    <Member Name="Setting7">true</Member>
+    <Class Name="Login" Type="Body" Version="1">
+        <Member Name="HostName">my.db.Settings.server.local</Member>
+        <Member Name="Port">2000</Member>
+        <Member Name="User">john.smith</Member>
+        <Member Name="Password">newPassword</Member>
+    </Class>
+    <Collection Name="LastUsedDocuments">
+        <Class Type="Header" Version="1">
+            <Member Name="Name">Document #1</Member>
+            <Member Name="Path">c:\temp\</Member>
+            <Member Name="Size"></Member>
+        </Class>
+        <Class Type="Header" Version="1">
+            <Member Name="Name">Document #2</Member>
+            <Member Name="Path">c:\temp\</Member>
+            <Member Name="Size"></Member>
+        </Class>
+        <Class Type="Header" Version="1">
+            <Member Name="Name">Document #3</Member>
+            <Member Name="Path">c:\temp\</Member>
+            <Member Name="Size"></Member>
+        </Class>
+        <Class Type="Header" Version="1">
+            <Member Name="Name">Document #4</Member>
+            <Member Name="Path">c:\temp\</Member>
+            <Member Name="Size"></Member>
+        </Class>
+        <Class Type="Header" Version="1">
+            <Member Name="Name">Document #5</Member>
+            <Member Name="Path">c:\temp\</Member>
+            <Member Name="Size"></Member>
+        </Class>
+    </Collection>
+</SerializableClass>
